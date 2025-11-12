@@ -1,7 +1,15 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [121] using StatReload
-INFO:     Started server process [123]
+INFO:     Started reloader process [202] using StatReload
+INFO:     Started server process [204]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:43652 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:40960 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:40970 - "GET /signals?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40970 - "GET /signals?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40986 - "GET /backtest?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40986 - "GET /backtest?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40990 - "GET /signals?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40990 - "GET /backtest?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40360 - "GET /signals?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40990 - "GET /backtest?asset=BTCUSDT&timeframe=1h&fast=9&slow=21&rsi_len=14&rsi_buy=55&rsi_sell=45&tp_rr=1.5&sl_pct=0.02 HTTP/1.1" 200 OK
